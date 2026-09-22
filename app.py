@@ -7,7 +7,7 @@ Loan_amount=st.number_input("Enter Loan amount :")
 Credit_score=st.number_input("Enter credit score :")
 
 if st.button("Submit"):
-  st.write(f""")  
+  st.write(f"""  
 
   Customer Loan Approval Summary
 
@@ -17,3 +17,4 @@ if st.button("Submit"):
   Loan Amount \t: {Loan_amount}
   Credit Score \t: {Credit_score}
   ------------------------------
+)
